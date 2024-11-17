@@ -1,3 +1,58 @@
 HKLM
-    SYSTEM\CurrentControlSet\Control\Session Manager\Kernel
-    DisableExceptionChainValidation REG_DWORD 0
+SOFTWARE\Microsoft\Direct3D
+MaxFrameLatency REG_DWORD 1
+DisableTimeoutDetection REG_DWORD 1
+ForceGPUScaling REG_DWORD 1
+EnablePerfTracking REG_DWORD 0
+DriverModeTimeout REG_DWORD 0
+
+HKLM
+SOFTWARE\Microsoft\DirectDraw
+DisableMMX REG_DWORD 1
+DisableVSync REG_DWORD 1
+ForceRefreshRate REG_DWORD 360
+MaxBackBuffers REG_DWORD 1
+EnablePerfTracking REG_DWORD 0
+
+HKLM
+SOFTWARE\Microsoft\DirectX
+MaxQueuedFrames REG_DWORD 1
+EnableHWAccel REG_DWORD 1
+DXMaxFrameLatency REG_DWORD 1
+DisableDriverCache REG_DWORD 1
+EnableDebugLayer REG_DWORD 0
+
+HKLM
+SYSTEM\CurrentControlSet\Control\GraphicsDrivers
+TdrLevel REG_DWORD 0
+TdrDelay REG_DWORD 5
+TdrDdiDelay REG_DWORD 5
+MaxFrameLatency REG_DWORD 1
+
+HKLM
+SOFTWARE\Microsoft\Windows\Dwm
+AnimationAttributionEnabled REG_DWORD 0
+AnimationAttributionHashingEnabled REG_DWORD 0
+AnimationsShiftKey REG_DWORD 0
+BackdropBlurCachingThrottleMs REG_DWORD 0
+ChildWindowDpiIsolation REG_DWORD 1
+ColorizationColor REG_DWORD 0
+ColorPrevalence REG_DWORD 0
+ConfigureInput REG_DWORD 1
+CpuClipAreaThreshold REG_DWORD 1
+DebugFailFast REG_DWORD 1
+DisableAdvancedDirectFlip REG_DWORD 0
+DisableDeviceBitmaps REG_DWORD 1
+DisableDeviceBitmapsForMultiAdapter REG_DWORD 1
+DisableDrawListCaching REG_DWORD 1
+DisableHologramCompositor REG_DWORD 1
+DisableLockingMemory REG_DWORD 1
+DisableProjectedShadows REG_DWORD 1
+DisableProjectedShadowsRendering REG_DWORD 1
+DisallowNonDrawListRendering REG_DWORD 1
+DwmInitSessionActivityId_00000001 REG_DWORD 1
+
+HKLM
+SOFTWARE\Microsoft\Windows\Dwm\ExtendedComposition
+ExclusiveModeFramerateAveragingPeriodMs REG_DWORD 1
+ExclusiveModeFramerateThresholdPercent REG_DWORD 100
