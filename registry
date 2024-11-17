@@ -1,0 +1,3 @@
+HKLM
+    SYSTEM\CurrentControlSet\Control\Session Manager\Kernel
+    DisableExceptionChainValidation REG_DWORD 0
